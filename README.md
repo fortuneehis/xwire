@@ -41,7 +41,7 @@ A simple banking backend server built with Node.js, Express, TypeScript, and Pos
 3. **Configure environment variables:**
    This project uses [`proenv`](https://www.npmjs.com/package/proenv) (An NPM package I built) for structured environment variable management. Create a `.env` file in the root directory of the project with the following content:
 
-   ```env
+```env
 ORIGIN=http://localhost:3000
 DB=[
     USERNAME=user
