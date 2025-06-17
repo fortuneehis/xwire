@@ -15,7 +15,6 @@ A simple banking backend server built with Node.js, Express, TypeScript, and Pos
 - Node.js, Express
 - TypeScript
 - PostgreSQL (via TypeORM)
-- Socket.IO (for real-time features, if implemented)
 
 ## Getting Started
 
@@ -43,7 +42,7 @@ A simple banking backend server built with Node.js, Express, TypeScript, and Pos
    This project uses [`proenv`](https://www.npmjs.com/package/proenv) (An NPM package I built) for structured environment variable management. Create a `.env` file in the root directory of the project with the following content:
 
    ```env
-  ORIGIN=http://localhost:3000
+ORIGIN=http://localhost:3000
 DB=[
     USERNAME=user
     PASSWORD=user
@@ -63,7 +62,8 @@ CURRENCIES=[
         PRECISION=2
         CURRENCY=NGN
     ]
-   ```
+]
+```
 
    Alternatively, you can set these variables directly in your environment.
 
